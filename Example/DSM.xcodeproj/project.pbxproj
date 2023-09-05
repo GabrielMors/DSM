@@ -74,7 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				C445279D2AA6C575006F46CC /* Development Pods */,
+				C44527972AA6BAD8006F46CC /* Colors */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DSM */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -159,7 +159,6 @@
 				C445279A2AA6C473006F46CC /* Test */,
 			);
 			name = Colors;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		C445279A2AA6C473006F46CC /* Test */ = {
@@ -168,14 +167,6 @@
 				C445279B2AA6C485006F46CC /* Test.swift */,
 			);
 			path = Test;
-			sourceTree = "<group>";
-		};
-		C445279D2AA6C575006F46CC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C44527972AA6BAD8006F46CC /* Colors */,
-			);
-			path = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D5CC11624E7FE2F79601162D /* Frameworks */ = {
