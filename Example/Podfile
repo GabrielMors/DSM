@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DSM_Example' do
+  pod 'DSM', :path => '../'
+
+  target 'DSM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
