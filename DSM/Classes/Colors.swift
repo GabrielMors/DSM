@@ -1,8 +1,8 @@
 import Foundation
 import UIKit
 
-class Colors {
+public struct Colors {
     
-    static let blue = UIColor.blue
+    public static let blue = UIColor.blue
     
 }
