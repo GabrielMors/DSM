@@ -26,12 +26,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GabrielMors' => 'gabrielmors210@gmail.com' }
-  s.source           = { :git => 'https://github.com/GabrielMors/DSM.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GabrielMors/DSM.git', :commit => 'e869c5c161239d0f95a3eb3a3489aef8268dca25' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'DSM/Colors/**/*.swift'
+  s.source_files = 'DSM/Classes/**/*.swift'
+  # classe raiz a ser exibida
   
   s.platform = :ios, '10.0'
 

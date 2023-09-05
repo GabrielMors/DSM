@@ -14,8 +14,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		94245023F5278DEE53F7A1C2 /* Pods_DSM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858A1361F18596B8634B5D65 /* Pods_DSM_Example.framework */; };
 		A4BA947266FEE5FE3169C7AC /* Pods_DSM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705BFF3C28BE12FB96ACAA9F /* Pods_DSM_Tests.framework */; };
-		C44527992AA6BAEF006F46CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44527982AA6BAEF006F46CC /* Colors.swift */; };
-		C445279C2AA6C485006F46CC /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445279B2AA6C485006F46CC /* Test.swift */; };
+		C44527A52AA6CCD0006F46CC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C44527A12AA6CCD0006F46CC /* .gitkeep */; };
+		C44527A62AA6CCD0006F46CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44527A22AA6CCD0006F46CC /* Colors.swift */; };
+		C44527A72AA6CCD0006F46CC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C44527A42AA6CCD0006F46CC /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,9 @@
 		A9EFAAB4FF8328D3B7354CE5 /* DSM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSM.podspec; path = ../DSM.podspec; sourceTree = "<group>"; };
 		AF0F87587A42B28CA9948D14 /* Pods-DSM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DSM_Tests/Pods-DSM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA8D5E240AE68DA7F1599DE5 /* Pods-DSM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSM_Example.debug.xcconfig"; path = "Target Support Files/Pods-DSM_Example/Pods-DSM_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C44527982AA6BAEF006F46CC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		C445279B2AA6C485006F46CC /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C44527A12AA6CCD0006F46CC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		C44527A22AA6CCD0006F46CC /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C44527A42AA6CCD0006F46CC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				C44527972AA6BAD8006F46CC /* Colors */,
+				C445279F2AA6CCD0006F46CC /* DSM */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DSM */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -152,21 +154,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C44527972AA6BAD8006F46CC /* Colors */ = {
+		C445279F2AA6CCD0006F46CC /* DSM */ = {
 			isa = PBXGroup;
 			children = (
-				C44527982AA6BAEF006F46CC /* Colors.swift */,
-				C445279A2AA6C473006F46CC /* Test */,
+				C44527A02AA6CCD0006F46CC /* Classes */,
+				C44527A32AA6CCD0006F46CC /* Assets */,
 			);
-			name = Colors;
+			name = DSM;
+			path = ../DSM;
 			sourceTree = "<group>";
 		};
-		C445279A2AA6C473006F46CC /* Test */ = {
+		C44527A02AA6CCD0006F46CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C445279B2AA6C485006F46CC /* Test.swift */,
+				C44527A12AA6CCD0006F46CC /* .gitkeep */,
+				C44527A22AA6CCD0006F46CC /* Colors.swift */,
 			);
-			path = Test;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C44527A32AA6CCD0006F46CC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C44527A42AA6CCD0006F46CC /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		D5CC11624E7FE2F79601162D /* Frameworks */ = {
@@ -267,7 +279,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				C44527A72AA6CCD0006F46CC /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				C44527A52AA6CCD0006F46CC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				C445279C2AA6C485006F46CC /* Test.swift in Sources */,
-				C44527992AA6BAEF006F46CC /* Colors.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C44527A62AA6CCD0006F46CC /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
