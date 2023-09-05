@@ -1,0 +1,16 @@
+PODS:
+  - DSM (0.1.0)
+
+DEPENDENCIES:
+  - DSM (from `../`)
+
+EXTERNAL SOURCES:
+  DSM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSM: f35dfe2bcb26ba32ca22627b0ec9f0a8361d3227
+
+PODFILE CHECKSUM: e2d81ea4c0caac9ae202d540d39d53a5acc26a27
+
+COCOAPODS: 1.12.1

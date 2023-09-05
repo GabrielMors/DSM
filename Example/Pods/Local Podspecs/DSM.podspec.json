@@ -1,0 +1,22 @@
+{
+  "name": "DSM",
+  "version": "0.1.0",
+  "summary": "A short description of DSM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GabrielMors/DSM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GabrielMors": "gabrielmors210@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/GabrielMors/DSM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DSM/Classes/**/*"
+}
